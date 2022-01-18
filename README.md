@@ -1,7 +1,25 @@
-
-# Serverless IAM Helper Plugin
-
-This plugin intends to help apply IAM Path and PermissionsBoundary properties to hard to reach IAM roles, but conditionally applies to all.
+<h1 align="center" style="border-bottom: none;"> serverless-iam-helper</h1>
+<h3 align="center">Helps apply IAM Path and PermissionsBoundary properties, especially for hard to reach roles.</h3>
+<p align="center">
+  <a href="https://github.com/mdial89f/serverless-iam-helper/releases/latest">
+    <img alt="latest release" src="https://img.shields.io/github/release/mdial89f/serverless-iam-helper.svg">
+  </a>
+  <a href="https://www.npmjs.com/package/serverless-iam-helper">
+    <img alt="npm latest version" src="https://img.shields.io/npm/v/serverless-iam-helper/latest.svg">
+  </a>
+  <a href="https://codeclimate.com/github/mdial89f/serverless-iam-helper/maintainability">
+    <img alt="Maintainability" src="https://api.codeclimate.com/v1/badges/20f59ef91bd30565c424/maintainability">
+  </a>
+  <a href="https://github.com/semantic-release/semantic-release">
+    <img alt="semantic-release: angular" src="https://img.shields.io/badge/semantic--release-angular-e10079?logo=semantic-release">
+  </a>
+  <a href="https://dependabot.com/">
+    <img alt="Dependabot" src="https://badgen.net/badge/Dependabot/enabled/green?icon=dependabot">
+  </a>
+  <a href="https://github.com/prettier/prettier">
+    <img alt="code style: prettier" src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square">
+  </a>
+</p>
 
 ## Usage
 
@@ -13,14 +31,17 @@ plugins:
 
 ...
 
+# Note:  This is standard aws provider configuration; this plugin makes use of it.
 provider:
   iam:
     role:
       path: /my/custom/path
-        permissionsBoundary: arn:aws:iam::000000000000:policy/my/custom-boundary-policy
+      permissionsBoundary: arn:aws:iam::000000000000:policy/my/custom-boundary-policy
 ```
 
 ## Background
+
+This plugin intends to help apply IAM Path and PermissionsBoundary properties to hard to reach IAM roles, but conditionally applies to all.
 
 While the Serverless Framework supports [path/permboundary specification at the provider level](https://www.serverless.com/framework/docs/providers/aws/guide/iam/), that capability seems to only affect roles generated for user defined functions. Some serverless deployments generate roles outside of user defined functions, sometimes in user defined cloudformation and sometimes behind the scenes of certain plugins/functionality, so this plugin helps reach those.  
 Scenarios where this should help:
@@ -38,10 +59,16 @@ Notes on logic:
 - If provider.iam.role.permissionsBoundary is specified, the plugin makes sure the role's Properties.PermissionsBoundary is set to provider.iam.role.permissionsBoundary.
 - Paths/PermissionsBoundarys already set on resources will be overwritten. So if a user specifies a provider.iam.role.path to /my/path/one, and then in the same serverless.yml creates a role in cloudformation and attempts to manually set that role's path to /my/path/two... the provider config will win. Originally, this plugin had not overwritten, to allow for users to specify different paths/permboundarys in the same serverless.yml. However, some other plugins and workflows generate cloudformation resources with path set to the default, so there's no good way to differentiate between an incorrectly set path and a user's correctly set path (different than provider config). This is seen as an edge case, however. If a user wants to leverage the provider level iam path/permBoundary settings, the assumption is that all roles created in that service will use the provider config. This plugin stands on that assumption, and is deemed fair.
 
-
 ## License
 
-CC0 1.0 Universal
+[![License](https://img.shields.io/badge/License-CC0--1.0--Universal-blue.svg)](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
 
-This project stems from [CMSgov/serverless-iam-helper](https://github.com/cmsgov/serverless-iam-helper).  
-This project is maintained and developed independently from [CMSgov/serverless-idempotency-helper](https://github.com/cmsgov/serverless-iam-helper), and is published with a CC0 1.0 Universal license.
+See [LICENSE](LICENSE.md) for full details.
+
+## Contributors
+
+| [![Mike Dial][dial_avatar]][dial_homepage]<br/>[Mike Dial][dial_homepage] |
+| ------------------------------------------------------------------------- |
+
+[dial_homepage]: https://github.com/mdial89f
+[dial_avatar]: https://avatars.githubusercontent.com/mdial89f?size=150
