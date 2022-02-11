@@ -2,7 +2,6 @@
   "name": "serverless-iam-helper",
   "version": "1.1.0",
   "description": "Serverless plugin to add provider Path and PermissionsBoundary properties to all roles, including those hard to reach.",
-  "private": true,
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -43,7 +42,7 @@
       ]
     ]
   },
-  "license": "CC0 1.0 Universal",
+  "license": "MIT",
   "author": {
     "name": "Mike Dial",
     "url": "https://github.com/mdial89f"
