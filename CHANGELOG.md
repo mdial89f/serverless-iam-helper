@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/mdial89f/serverless-iam-helper/compare/v2.0.0...v2.1.0) (2022-04-20)
+
+
+### Features
+
+* **publish fix:**  Update to fix publishing behavior ([6175fac](https://github.com/mdial89f/serverless-iam-helper/commit/6175fac86cd2c11e0436a9eec353917efb66f387))
+
 # [2.0.0](https://github.com/mdial89f/serverless-iam-helper/compare/v1.1.0...v2.0.0) (2022-02-11)
 
 
