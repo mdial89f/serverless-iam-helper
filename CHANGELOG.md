@@ -1,3 +1,10 @@
+# [2.2.0](https://github.com/mdial89f/serverless-iam-helper/compare/v2.1.0...v2.2.0) (2022-04-23)
+
+
+### Features
+
+* **scope:** publish as scoped package ([7c093fc](https://github.com/mdial89f/serverless-iam-helper/commit/7c093fcb4eab40293eb5c52553c9c1dd060f1091))
+
 # [2.1.0](https://github.com/mdial89f/serverless-iam-helper/compare/v2.0.0...v2.1.0) (2022-04-20)
 
 
