@@ -1,3 +1,10 @@
+## [2.2.1](https://github.com/mdial89f/serverless-iam-helper/compare/v2.2.0...v2.2.1) (2022-04-23)
+
+
+### Bug Fixes
+
+* **lock:** regen lock ([79aa34d](https://github.com/mdial89f/serverless-iam-helper/commit/79aa34da51b13034f546c7f4a603421525fbb676))
+
 # [2.2.0](https://github.com/mdial89f/serverless-iam-helper/compare/v2.1.0...v2.2.0) (2022-04-23)
 
 
