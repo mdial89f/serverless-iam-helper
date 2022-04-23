@@ -1,3 +1,10 @@
+## [2.2.2](https://github.com/mdial89f/serverless-iam-helper/compare/v2.2.1...v2.2.2) (2022-04-23)
+
+
+### Bug Fixes
+
+* **metadata:** fix metadata ([10625cf](https://github.com/mdial89f/serverless-iam-helper/commit/10625cf426535539019ce0b3e5fcf9a370fc4ea7))
+
 ## [2.2.1](https://github.com/mdial89f/serverless-iam-helper/compare/v2.2.0...v2.2.1) (2022-04-23)
 
 
