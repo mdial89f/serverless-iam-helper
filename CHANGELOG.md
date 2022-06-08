@@ -1,3 +1,10 @@
+# [2.3.0](https://github.com/theclouddeck/serverless-iam-helper/compare/v2.2.2...v2.3.0) (2022-06-08)
+
+
+### Features
+
+* **move org:** move to theclouddeck ([cf56a5a](https://github.com/theclouddeck/serverless-iam-helper/commit/cf56a5a942e3408d463ada9b0bacbbacd6d7373b))
+
 ## [2.2.2](https://github.com/mdial89f/serverless-iam-helper/compare/v2.2.1...v2.2.2) (2022-04-23)
 
 

@@ -1,6 +1,6 @@
 {
   "name": "@theclouddeck/serverless-iam-helper",
-  "version": "2.2.2",
+  "version": "2.3.0",
   "description": "Serverless plugin to add provider Path and PermissionsBoundary properties to all roles, including those hard to reach.",
   "main": "index.js",
   "scripts": {
