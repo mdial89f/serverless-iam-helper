@@ -1,3 +1,15 @@
+# [3.0.0](https://github.com/theclouddeck/serverless-iam-helper/compare/v2.3.0...v3.0.0) (2022-06-14)
+
+
+### Features
+
+* **sls v3:**  Update peer dependency specifying v3 ([0e0f93f](https://github.com/theclouddeck/serverless-iam-helper/commit/0e0f93f8365f108a3200dd6a577895ba6ef8255d))
+
+
+### BREAKING CHANGES
+
+* **sls v3:** specifying a sls v3 peer dep
+
 # [2.3.0](https://github.com/theclouddeck/serverless-iam-helper/compare/v2.2.2...v2.3.0) (2022-06-08)
 
 
