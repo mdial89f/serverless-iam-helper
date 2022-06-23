@@ -1,13 +1,13 @@
 <h1 align="center" style="border-bottom: none;"> serverless-iam-helper</h1>
 <h3 align="center">Helps apply IAM Path and PermissionsBoundary properties, especially for hard to reach roles.</h3>
 <p align="center">
-  <a href="https://github.com/theclouddeck/serverless-iam-helper/releases/latest">
-    <img alt="latest release" src="https://img.shields.io/github/release/theclouddeck/serverless-iam-helper.svg">
+  <a href="https://github.com/stratiformdigital/serverless-iam-helper/releases/latest">
+    <img alt="latest release" src="https://img.shields.io/github/release/stratiformdigital/serverless-iam-helper.svg">
   </a>
   <a href="https://www.npmjs.com/package/serverless-iam-helper">
     <img alt="npm latest version" src="https://img.shields.io/npm/v/serverless-iam-helper/latest.svg">
   </a>
-  <a href="https://codeclimate.com/github/theclouddeck/serverless-iam-helper/maintainability">
+  <a href="https://codeclimate.com/github/stratiformdigital/serverless-iam-helper/maintainability">
     <img alt="Maintainability" src="https://api.codeclimate.com/v1/badges/20f59ef91bd30565c424/maintainability">
   </a>
   <a href="https://github.com/semantic-release/semantic-release">

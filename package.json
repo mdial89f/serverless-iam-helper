@@ -1,5 +1,5 @@
 {
-  "name": "@theclouddeck/serverless-iam-helper",
+  "name": "@stratiformdigital/serverless-iam-helper",
   "version": "3.0.0",
   "description": "Serverless plugin to add provider Path and PermissionsBoundary properties to all roles, including those hard to reach.",
   "main": "index.js",
@@ -44,7 +44,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/theclouddeck/serverless-iam-helper"
+    "url": "https://github.com/stratiformdigital/serverless-iam-helper"
   },
   "license": "MIT",
   "author": {
