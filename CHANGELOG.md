@@ -1,3 +1,10 @@
+# [3.1.0](https://github.com/stratiformdigital/serverless-iam-helper/compare/v3.0.0...v3.1.0) (2022-06-23)
+
+
+### Features
+
+* **migration:** migrate orgs ([6b57df4](https://github.com/stratiformdigital/serverless-iam-helper/commit/6b57df4bfea72ff086a6fbb4d961a15be40e4944))
+
 # [3.0.0](https://github.com/theclouddeck/serverless-iam-helper/compare/v2.3.0...v3.0.0) (2022-06-14)
 
 
