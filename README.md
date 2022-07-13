@@ -4,8 +4,8 @@
   <a href="https://github.com/stratiformdigital/serverless-iam-helper/releases/latest">
     <img alt="latest release" src="https://img.shields.io/github/release/stratiformdigital/serverless-iam-helper.svg">
   </a>
-  <a href="https://www.npmjs.com/package/serverless-iam-helper">
-    <img alt="npm latest version" src="https://img.shields.io/npm/v/serverless-iam-helper/latest.svg">
+  <a href="https://www.npmjs.com/package/@stratiformdigital/serverless-iam-helper">
+    <img alt="npm latest version" src="https://img.shields.io/npm/v/@stratiformdigital/serverless-iam-helper/latest.svg">
   </a>
   <a href="https://codeclimate.com/github/stratiformdigital/serverless-iam-helper/maintainability">
     <img alt="Maintainability" src="https://api.codeclimate.com/v1/badges/20f59ef91bd30565c424/maintainability">
@@ -64,11 +64,3 @@ Notes on logic:
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 See [LICENSE](LICENSE) for full details.
-
-## Contributors
-
-| [![Mike Dial][dial_avatar]][dial_homepage]<br/>[Mike Dial][dial_homepage] |
-| ------------------------------------------------------------------------- |
-
-[dial_homepage]: https://github.com/mdial89f
-[dial_avatar]: https://avatars.githubusercontent.com/mdial89f?size=150
