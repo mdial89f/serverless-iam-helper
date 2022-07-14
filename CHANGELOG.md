@@ -1,3 +1,10 @@
+# [3.2.0](https://github.com/stratiformdigital/serverless-iam-helper/compare/v3.1.0...v3.2.0) (2022-07-14)
+
+
+### Features
+
+* **publish:** Publish ([9d428a8](https://github.com/stratiformdigital/serverless-iam-helper/commit/9d428a8d3c8b9ed5a3a80624455b207dffc57585))
+
 # [3.1.0](https://github.com/stratiformdigital/serverless-iam-helper/compare/v3.0.0...v3.1.0) (2022-06-23)
 
 
